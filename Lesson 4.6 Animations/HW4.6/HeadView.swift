@@ -27,6 +27,7 @@ struct HeadView: View {
                 path.addLine(to: CGPoint(x: 55, y: 80))
                 path.addLine(to: CGPoint(x: 50, y: 90))
                 path.addLine(to: CGPoint(x: 20, y: 90))
+                path.closeSubpath()
             }
             .stroke(Color.white)
             
