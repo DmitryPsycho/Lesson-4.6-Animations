@@ -11,6 +11,20 @@
 		40C1303F28E1C62500A232C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1303E28E1C62500A232C2 /* ContentView.swift */; };
 		40C1304128E1C62600A232C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C1304028E1C62600A232C2 /* Assets.xcassets */; };
 		40C1304428E1C62600A232C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C1304328E1C62600A232C2 /* Preview Assets.xcassets */; };
+		40C1304B28E1C79000A232C2 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1304A28E1C79000A232C2 /* GradientRectangles.swift */; };
+		40C1304D28E1C99800A232C2 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1304C28E1C99800A232C2 /* AwardsView.swift */; };
+		40C1304F28E1CBA300A232C2 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1304E28E1CBA300A232C2 /* PathView.swift */; };
+		40C1305128E1D6FA00A232C2 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1305028E1D6FA00A232C2 /* CurvesView.swift */; };
+		40C1305328E1DD9F00A232C2 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C1305228E1DD9F00A232C2 /* CartRacingView.swift */; };
+		40C130B528E3003B00A232C2 /* GuitarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130B428E3003B00A232C2 /* GuitarView.swift */; };
+		40C130B728E3004800A232C2 /* FullGriefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130B628E3004800A232C2 /* FullGriefView.swift */; };
+		40C130B928E3005300A232C2 /* GriefFlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130B828E3005300A232C2 /* GriefFlowerView.swift */; };
+		40C130BB28E3005C00A232C2 /* GriefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130BA28E3005C00A232C2 /* GriefView.swift */; };
+		40C130BD28E3006300A232C2 /* StringsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130BC28E3006300A232C2 /* StringsView.swift */; };
+		40C130C328E300C300A232C2 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130C028E300C300A232C2 /* DeckView.swift */; };
+		40C130C428E300C300A232C2 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130C128E300C300A232C2 /* HeadView.swift */; };
+		40C130C728E300F500A232C2 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C130C628E300F500A232C2 /* AudioPlayer.swift */; };
+		40C130CD28E30A3400A232C2 /* lesson4.6.2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40C130CC28E30A3400A232C2 /* lesson4.6.2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,20 @@
 		40C1303E28E1C62500A232C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40C1304028E1C62600A232C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C1304328E1C62600A232C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40C1304A28E1C79000A232C2 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		40C1304C28E1C99800A232C2 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		40C1304E28E1CBA300A232C2 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		40C1305028E1D6FA00A232C2 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		40C1305228E1DD9F00A232C2 /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		40C130B428E3003B00A232C2 /* GuitarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarView.swift; sourceTree = "<group>"; };
+		40C130B628E3004800A232C2 /* FullGriefView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullGriefView.swift; sourceTree = "<group>"; };
+		40C130B828E3005300A232C2 /* GriefFlowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GriefFlowerView.swift; sourceTree = "<group>"; };
+		40C130BA28E3005C00A232C2 /* GriefView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GriefView.swift; sourceTree = "<group>"; };
+		40C130BC28E3006300A232C2 /* StringsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsView.swift; sourceTree = "<group>"; };
+		40C130C028E300C300A232C2 /* DeckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		40C130C128E300C300A232C2 /* HeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		40C130C628E300F500A232C2 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		40C130CC28E30A3400A232C2 /* lesson4.6.2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lesson4.6.2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,12 @@
 			children = (
 				40C1303C28E1C62500A232C2 /* Lesson_4_6_AnimationsApp.swift */,
 				40C1303E28E1C62500A232C2 /* ContentView.swift */,
+				40C1305228E1DD9F00A232C2 /* CartRacingView.swift */,
+				40C1304C28E1C99800A232C2 /* AwardsView.swift */,
+				40C1305028E1D6FA00A232C2 /* CurvesView.swift */,
+				40C1304E28E1CBA300A232C2 /* PathView.swift */,
+				40C1304A28E1C79000A232C2 /* GradientRectangles.swift */,
+				40C130C528E300CF00A232C2 /* HW4.6 */,
 				40C1304028E1C62600A232C2 /* Assets.xcassets */,
 				40C1304228E1C62600A232C2 /* Preview Content */,
 			);
@@ -65,6 +99,30 @@
 				40C1304328E1C62600A232C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40C130BE28E300C300A232C2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				40C130CC28E30A3400A232C2 /* lesson4.6.2.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		40C130C528E300CF00A232C2 /* HW4.6 */ = {
+			isa = PBXGroup;
+			children = (
+				40C130B428E3003B00A232C2 /* GuitarView.swift */,
+				40C130C628E300F500A232C2 /* AudioPlayer.swift */,
+				40C130B628E3004800A232C2 /* FullGriefView.swift */,
+				40C130B828E3005300A232C2 /* GriefFlowerView.swift */,
+				40C130BA28E3005C00A232C2 /* GriefView.swift */,
+				40C130BC28E3006300A232C2 /* StringsView.swift */,
+				40C130C028E300C300A232C2 /* DeckView.swift */,
+				40C130C128E300C300A232C2 /* HeadView.swift */,
+				40C130BE28E300C300A232C2 /* Audio */,
+			);
+			path = HW4.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C1304428E1C62600A232C2 /* Preview Assets.xcassets in Resources */,
+				40C130CD28E30A3400A232C2 /* lesson4.6.2.mp3 in Resources */,
 				40C1304128E1C62600A232C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +196,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C130BB28E3005C00A232C2 /* GriefView.swift in Sources */,
+				40C130B928E3005300A232C2 /* GriefFlowerView.swift in Sources */,
+				40C130C728E300F500A232C2 /* AudioPlayer.swift in Sources */,
+				40C130C428E300C300A232C2 /* HeadView.swift in Sources */,
+				40C1305128E1D6FA00A232C2 /* CurvesView.swift in Sources */,
+				40C1305328E1DD9F00A232C2 /* CartRacingView.swift in Sources */,
+				40C130B728E3004800A232C2 /* FullGriefView.swift in Sources */,
+				40C130BD28E3006300A232C2 /* StringsView.swift in Sources */,
+				40C130B528E3003B00A232C2 /* GuitarView.swift in Sources */,
+				40C1304F28E1CBA300A232C2 /* PathView.swift in Sources */,
+				40C1304D28E1C99800A232C2 /* AwardsView.swift in Sources */,
 				40C1303F28E1C62500A232C2 /* ContentView.swift in Sources */,
 				40C1303D28E1C62500A232C2 /* Lesson_4_6_AnimationsApp.swift in Sources */,
+				40C1304B28E1C79000A232C2 /* GradientRectangles.swift in Sources */,
+				40C130C328E300C300A232C2 /* DeckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

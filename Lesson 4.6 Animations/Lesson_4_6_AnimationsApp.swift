@@ -11,7 +11,7 @@ import SwiftUI
 struct Lesson_4_6_AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AwardsView()
         }
     }
 }
