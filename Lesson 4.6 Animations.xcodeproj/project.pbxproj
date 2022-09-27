@@ -113,13 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				40C130B428E3003B00A232C2 /* GuitarView.swift */,
-				40C130C628E300F500A232C2 /* AudioPlayer.swift */,
 				40C130B628E3004800A232C2 /* FullGriefView.swift */,
 				40C130B828E3005300A232C2 /* GriefFlowerView.swift */,
 				40C130BA28E3005C00A232C2 /* GriefView.swift */,
 				40C130BC28E3006300A232C2 /* StringsView.swift */,
 				40C130C028E300C300A232C2 /* DeckView.swift */,
 				40C130C128E300C300A232C2 /* HeadView.swift */,
+				40C130C628E300F500A232C2 /* AudioPlayer.swift */,
 				40C130BE28E300C300A232C2 /* Audio */,
 			);
 			path = HW4.6;

@@ -15,47 +15,21 @@ struct GriefFlowerView: View {
     var body: some View {
         ZStack {
             ZStack {
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mlGrief ? -15 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mlGrief)
-                    .onAppear{
+                GriefRotationView(rotation: $mlGrief, degree: -15)
+                    .onAppear {
                         mlGrief.toggle()
                     }
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mlGrief ? -30 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mlGrief)
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mlGrief ? -45 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mlGrief)
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mlGrief ? -60 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mrGrief)
+                GriefRotationView(rotation: $mlGrief, degree: -30)
+                GriefRotationView(rotation: $mlGrief, degree: -45)
+                GriefRotationView(rotation: $mlGrief, degree: -60)
     
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mrGrief ? 15 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mrGrief)
-                    .onAppear{
+                GriefRotationView(rotation: $mrGrief, degree: 15)
+                    .onAppear {
                         mrGrief.toggle()
                     }
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mrGrief ? 30 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mrGrief)
-
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mrGrief ? 45 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mrGrief)
-                   
-                FullGriefView()
-                    .frame(width: 30, height: 300, alignment: .center)
-                    .rotationEffect(.degrees(mrGrief ? 60 : 0), anchor: .bottom)
-                    .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: mrGrief)
+                GriefRotationView(rotation: $mrGrief, degree: 30)
+                GriefRotationView(rotation: $mrGrief, degree: 45)
+                GriefRotationView(rotation: $mrGrief, degree: 60)
                     
             }
         }
@@ -65,5 +39,17 @@ struct GriefFlowerView: View {
 struct grifFlower_Previews: PreviewProvider {
     static var previews: some View {
         GriefFlowerView()
+    }
+}
+
+struct GriefRotationView: View {
+    @Binding var rotation: Bool
+    var degree: Double
+    
+    var body: some View {
+        FullGriefView()
+            .frame(width: 30, height: 300, alignment: .center)
+            .rotationEffect(.degrees(rotation ? degree : 0), anchor: .bottom)
+            .animation(.easeInOut(duration: 1).delay(1).repeatForever(autoreverses: true), value: rotation)
     }
 }
